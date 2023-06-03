@@ -1,0 +1,18 @@
+<style>
+.btn-custom {
+  margin-top: 14px;
+  background-color: #ffd8c8;
+}
+</style>
+
+<h1>Editing ticket</h1>
+
+<%= render "form", ticket: @ticket %>
+
+
+<div style="display: flex;">
+  <%= link_to "Show this ticket", @ticket, class: "btn btn-custom" %>
+  <%= link_to "Back to tickets", tickets_path, class: "btn btn-custom" %>
+</div>
+
+
