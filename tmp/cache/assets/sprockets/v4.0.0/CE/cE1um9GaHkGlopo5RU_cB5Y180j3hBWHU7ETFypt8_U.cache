@@ -1,0 +1,62 @@
+{:uriI"file://app/assets/vendor/fontawesome-free/package.json?type=application/json&id=e3adeb87e7d109fcc230db444a3cae465f1b656f82e0d5db144dad41c5e1726f:ET:load_pathI"app/assets/vendor;T:filenameI"4app/assets/vendor/fontawesome-free/package.json;T:	nameI"fontawesome-free/package;T:logical_pathI""fontawesome-free/package.json;T:content_typeI"application/json;T:sourceI"ú{
+  "description": "The iconic font, CSS, and SVG framework",
+  "keywords": [
+    "font",
+    "awesome",
+    "fontawesome",
+    "icon",
+    "svg",
+    "bootstrap"
+  ],
+  "homepage": "https://fontawesome.com",
+  "bugs": {
+    "url": "http://github.com/FortAwesome/Font-Awesome/issues"
+  },
+  "author": {
+    "name": "Dave Gandy",
+    "email": "dave@fontawesome.com",
+    "web": "http://twitter.com/davegandy"
+  },
+  "contributors": [
+    {
+      "name": "Brian Talbot",
+      "web": "http://twitter.com/talbs"
+    },
+    {
+      "name": "Travis Chase",
+      "web": "http://twitter.com/supercodepoet"
+    },
+    {
+      "name": "Rob Madole",
+      "web": "http://twitter.com/robmadole"
+    },
+    {
+      "name": "Geremia Taglialatela",
+      "web": "http://twitter.com/gtagliala"
+    },
+    {
+      "name": "Mike Wilkerson",
+      "web": "http://twitter.com/mw77"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FortAwesome/Font-Awesome"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {},
+  "version": "5.15.3",
+  "name": "@fortawesome/fontawesome-free",
+  "main": "js/fontawesome.js",
+  "style": "css/fontawesome.css",
+  "license": "(CC-BY-4.0 AND OFL-1.1 AND MIT)",
+  "scripts": {
+    "postinstall": "node attribution.js"
+  }
+};T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Bfile-digest://app/assets/vendor/fontawesome-free/package.json;TTF:charsetI"
+utf-8;F:digest"%9hÀDã±d+gs$¤æñµsFµpbÃ÷š/ƒŞ:lengthiú:environment_versionI"1.0;T:dependencies_digest"%¿Ì>îílw8Oê·VòÑéä°¿÷¼¤[Ùù:idI"Ee3adeb87e7d109fcc230db444a3cae465f1b656f82e0d5db144dad41c5e1726f;F
