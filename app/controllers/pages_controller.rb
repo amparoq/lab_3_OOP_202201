@@ -1,8 +1,9 @@
 class PagesController < ApplicationController
     def home
-        @admin = User.administrator[0]
-        @supervisors = User.supervisor
-        @executives = User.executive
-        @req_users = User.requiring_user
+        if current_user.role == "requiring_user"
+            @tickets = current_user.requiring_user_tickets
+            @opened_tickets = @tickets.where(state: "open")
+            @pending_responses = current_user.requiring_user_responses.where(acceptance: false)
+        end
     end
 end

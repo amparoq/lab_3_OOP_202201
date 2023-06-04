@@ -3,7 +3,13 @@ class TicketsController < ApplicationController
 
   # GET /tickets or /tickets.json
   def index
-    @tickets = Ticket.all
+    @user = User.find(params[:user_id])
+    if @user.requiring_user?
+      @tickets = @user.requiring_user_tickets
+    end
+    if @user.executive?
+      @tickets = @user.executive_tickets
+    end
   end
 
   # GET /tickets/1 or /tickets/1.json
